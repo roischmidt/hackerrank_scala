@@ -7,22 +7,21 @@ case class Node(
 )
 
 object BinaryTree {
-    
-    def buildListFromTree(node: Option[Node], ls: List[Int]): List[Int] = {
-        if (node.isEmpty)
-            return ls
-        val n = node.get
-        val modifiedList: List[Int] = buildListFromTree(n.left, ls.filter(_ < n.data)) ::: List(n.data) ::: buildListFromTree(n.right, ls.filter(_ > n.data))
-        modifiedList
-    }
-    
-    def isSorted(list: List[Int]): Boolean = {
-        list.sorted.equals(list)
-    }
-    
+
+    def isBinaryTree(nodeOpt: Option[Node],min: Int,max: Int): Boolean =
+        nodeOpt.forall { node =>
+            val data = node.data
+            if (data < min || data > max)
+                false
+            else
+                isBinaryTree(node.left, min, data - 1) && isBinaryTree(node.right, data + 1, max)
+        }
+
     def isBinaryTree(node: Option[Node]): Boolean = {
-        val ls = buildListFromTree(node, List.empty)
-        ls.toSet.size == ls.size && isSorted(ls)
+        //constraints
+            val minVal = 0
+            val maxVal = 10000
+        isBinaryTree(node,minVal,maxVal)
     }
     
 }

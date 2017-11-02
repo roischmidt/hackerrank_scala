@@ -61,4 +61,11 @@ class BinaryTreeSpec extends FunSpec with Matchers{
         val r = Node(5,Some(l1),Some(r1))
         BinaryTree.isBinaryTree(Some(r)) shouldBe false
     }
+
+    it("isBinaryTree5 - false") {
+        val r1 = Node(20000,None,None)
+        val l1 = Node(2,None,None)
+        val r = Node(4,Some(l1),Some(r1))
+        BinaryTree.isBinaryTree(Some(r)) shouldBe false
+    }
 }
