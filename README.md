@@ -1,6 +1,6 @@
 # hackerrank
 
-hackerrank solutions in scala
+## hackerrank solutions in scala
 
 - Davis Staircase : src/main/scala/techniques/DavisStaircase.scala
 - Primality : src/main/scala/techniques/Primality.scala
