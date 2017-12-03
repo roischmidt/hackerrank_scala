@@ -9,3 +9,5 @@
 - **Ransom Note** : src/main/scala/hashtables/RansomNote.scala
 - **Balanced Brackets** : src/main/scala/stacks/BalancedBrackets.scala
 - **Contacts** : src/main/scala/tries/Contacts.scala
+- **Two Stacks Queue** : src/main/scala/queues/TwoStacksQueue.scala
+
