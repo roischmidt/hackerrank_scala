@@ -10,4 +10,4 @@
 - **Balanced Brackets** : src/main/scala/stacks/BalancedBrackets.scala
 - **Contacts** : src/main/scala/tries/Contacts.scala
 - **Two Stacks Queue** : src/main/scala/queues/TwoStacksQueue.scala
-
+- **Connected Cell In Grid** : src/main/scala/trees/ConnectedCellInGrid.scala
