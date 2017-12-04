@@ -1,6 +1,6 @@
-# hackerrank
+# hackerrank - Cracking the code review
 
-## hackerrank solutions in scala
+## hackerrank solutions in scala (https://www.hackerrank.com/domains/tutorials/cracking-the-coding-interview)
 
 - **Davis Staircase** : src/main/scala/techniques/DavisStaircase.scala
 - **Primality** : src/main/scala/techniques/Primality.scala
