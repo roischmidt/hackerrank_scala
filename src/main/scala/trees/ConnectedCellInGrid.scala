@@ -34,7 +34,7 @@ object ConnectedCellInGrid {
             addConnections(node)
         }
     }
-    
+    //DFS search with marking every node as touched on the way
     def findGridSize(node: GridNode,count: Int) : Int = {
         if(node.touched)
             return count
