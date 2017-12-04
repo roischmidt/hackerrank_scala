@@ -78,35 +78,35 @@ class Stack {
 class Queue {
     // we will use list instead of stack which is deprecated in scala
     // deprecate message : Stack is an inelegant and potentially poorly-performing wrapper around List. Use a List assigned to a var instead.
-    var stackA: Stack = new Stack
-    var stackB: Stack = new Stack
+    var enqueueStack: Stack = new Stack
+    var dequeueStack: Stack = new Stack
     
     def enqueue(number: Int): Unit = {
-        stackA.push(number)
+        enqueueStack.push(number)
     }
     
     def dequeue(): Option[Int] = {
-        val opt = stackB.peek()
+        val opt = dequeueStack.peek()
         if(opt.isEmpty) {
-            copyToB
+            copyToDequeueStack
         }
-        stackB.pop()
+        dequeueStack.pop()
     }
     
     def print(): Int = {
-        val opt = stackB.peek()
+        val opt = dequeueStack.peek()
         if(opt.isEmpty) {
-            copyToB
+            copyToDequeueStack
         }
-        val last = stackB.peek().get // always should be available according to exercise
+        val last = dequeueStack.peek().get // always should be available according to exercise
         println(last)
         last
     }
   
     
-    private def copyToB =
-        while (stackA.peek().nonEmpty) {
-            stackB.push(stackA.pop().get)
+    private def copyToDequeueStack =
+        while (enqueueStack.peek().nonEmpty) {
+            dequeueStack.push(enqueueStack.pop().get)
         }
 }
 
