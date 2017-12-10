@@ -11,3 +11,4 @@
 - **Contacts** : src/main/scala/tries/Contacts.scala
 - **Two Stacks Queue** : src/main/scala/queues/TwoStacksQueue.scala
 - **Connected Cell In Grid** : src/main/scala/trees/ConnectedCellInGrid.scala
+- **Cunt Inversions** : src/main/scala/sorts/CountInversions.scala
