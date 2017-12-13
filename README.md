@@ -12,3 +12,4 @@
 - **Two Stacks Queue** : src/main/scala/queues/TwoStacksQueue.scala
 - **Connected Cell In Grid** : src/main/scala/trees/ConnectedCellInGrid.scala
 - **Cunt Inversions** : src/main/scala/sorts/CountInversions.scala
+- **Running Median** : src/main/scala/heaps/RunningMedian.scala
