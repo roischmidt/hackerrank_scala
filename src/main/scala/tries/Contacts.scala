@@ -3,34 +3,7 @@ package tries
 import scala.collection.mutable
 
 /**
-  * We're going to make our own Contacts application! The application must perform two types of operations:
-  * *
-  * add name, where  is a string denoting a contact name. This must store  as a new contact in the application.
-  * find partial, where  is a string denoting a partial name to search the application for. It must count the number of contacts starting with  and print the count on a new line.
-  * Given  sequential add and find operations, perform each operation in order.
-  * *
-  * Input Format
-  * *
-  * The first line contains a single integer, n , denoting the number of operations to perform.
-  * Each line i of the n subsequent lines contains an operation in one of the two forms defined above.
-  * *
-  * Output Format
-  * *
-  * For each find partial operation, print the number of contact names starting with  on a new line.
-  * *
-  * Sample Input
-  * *
-  * 4
-  * add hack
-  * add hackerrank
-  * find hac
-  * find hak
-  * *
-  * Sample Output
-  * *
-  * 2
-  * 0
-  * *
+  * https://www.hackerrank.com/challenges/ctci-contacts/problem
   * solution was based on Mauricio Linhares blog (https://mauricio.github.io/2015/01/06/building-a-prefix-tree-in-scala.html)
   */
 

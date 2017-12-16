@@ -3,7 +3,9 @@ package sorts
 import scala.collection.mutable
 import scala.collection.mutable.ArrayBuffer
 
-
+/**
+  * https://www.hackerrank.com/challenges/ctci-merge-sort/problem
+  */
 object CountingInversions {
     
     var inversionCount = 0

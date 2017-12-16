@@ -6,6 +6,9 @@ case class Node(
     right: Option[Node]
 )
 
+/**
+  * https://www.hackerrank.com/challenges/ctci-is-binary-search-tree/problem
+  */
 object BinaryTree {
 
     def isBinaryTree(nodeOpt: Option[Node],min: Int,max: Int): Boolean =

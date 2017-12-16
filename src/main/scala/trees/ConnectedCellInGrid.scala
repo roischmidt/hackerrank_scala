@@ -5,7 +5,6 @@ import scala.collection.mutable
 
 
 /**
-  * Big description, check their website.
   * In short, Given an nxm matrix, find and print the number of cells in the largest region in the matrix.
   * Note that there may be more than one region in the matrix.
   * https://www.hackerrank.com/challenges/ctci-connected-cell-in-a-grid/problem
