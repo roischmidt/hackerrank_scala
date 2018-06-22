@@ -14,3 +14,4 @@
 - **Counting Inversions (hard)** : src/main/scala/sorts/CountInversions.scala
 - **Running Median (hard)** : src/main/scala/heaps/RunningMedian.scala
 - **Coin Change (hard)** : src/main/scala/dp/CoinChange.scala
+- **Detect a Cycle (easy)** : src/main/scala/lists/LinkedList.scala
