@@ -15,3 +15,4 @@
 - **Running Median (hard)** : src/main/scala/heaps/RunningMedian.scala
 - **Coin Change (hard)** : src/main/scala/dp/CoinChange.scala
 - **Detect a Cycle (easy)** : src/main/scala/lists/LinkedList.scala
+- **Shortest path (hard)** : src/main/scala/trees/BFS.scala
