@@ -16,3 +16,4 @@
 - **Coin Change (hard)** : src/main/scala/dp/CoinChange.scala
 - **Detect a Cycle (easy)** : src/main/scala/lists/LinkedList.scala
 - **Shortest path (hard)** : src/main/scala/trees/BFS.scala
+- **Ice Cream Parlor (medium)** : src/main/scala/hashtables/IceCreamParlor.scala

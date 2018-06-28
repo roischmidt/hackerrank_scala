@@ -1,6 +1,5 @@
-package hashables
+package hashtables
 
-import hashtables.RansomNote
 import org.scalatest.{FunSpec, Matchers}
 
 class RansomNoteSpec extends FunSpec with Matchers{

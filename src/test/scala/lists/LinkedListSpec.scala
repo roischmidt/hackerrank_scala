@@ -2,7 +2,7 @@ package lists
 
 import org.scalatest.{FunSpec, FunSuite, Matchers}
 
-class LinkedListTest extends FunSpec with Matchers {
+class LinkedListSpec extends FunSpec with Matchers {
     
     describe("linked list") {
         it("hasCycle - roundList") {
